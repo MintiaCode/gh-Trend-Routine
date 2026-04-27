@@ -11,10 +11,14 @@
             "id": "6ea479cad151aa4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "dailyTrend/20260427.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "20260427"
             }
           }
         ]
@@ -96,7 +100,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "right": {
     "id": "cd6f95a0f6a8e9e4",
@@ -108,6 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "repos/microsoft-typescript-go - MicrosoftによるTypeScriptのGo言語ネイティブ移植版.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -162,6 +167,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ea479cad151aa4f",
-  "lastOpenFiles": []
+  "active": "a817eb2ebbb07ace",
+  "lastOpenFiles": [
+    "repos/curl-curl - 30以上のプロトコルに対応するURLデータ転送CLIツール.md",
+    "repos/Alishahryar1-free-claude-code - Claude CodeをAnthropicキー不要で無料利用するプロキシ.md",
+    "dailyTrend/20260427.md",
+    "repos/microsoft-typescript-go - MicrosoftによるTypeScriptのGo言語ネイティブ移植版.md",
+    "repos/ComposioHQ-awesome-codex-skills - Codex CLIとAPI向けワークフロー自動化スキル集.md",
+    "repos/trycua-cua - デスクトップ操作AIエージェントのオープンソースインフラ.md",
+    "repos/openclaw-openclaw - ローカルファーストで動くパーソナルAIアシスタント.md",
+    "repos/home-assistant-core - プライバシー優先のオープンソースホームオートメーション.md",
+    "repos/Z4nzu-hackingtool - ペネトレーションテスター向けオールインワンセキュリティツール.md",
+    "repos/mattpocock-skills - エンジニア向けClaude AIエージェントスキル集.md",
+    "repos/abhigyanpatwari-GitNexus - ブラウザ完結型コード知識グラフ・RAGエンジン.md",
+    "routine-prompt.md",
+    "repos/gastownhall-beads - AIエージェントのメモリ強化グラフ型タスクトラッカー.md",
+    "repos/codecrafters-io-build-your-own-x - 人気技術をスクラッチ再実装してプログラミングを習得するチュートリアル集.md",
+    "repos/PostHog-posthog - プロダクト分析・フィーチャーフラグ内蔵の開発者プラットフォーム.md",
+    "/routine-prompt.md",
+    "/repos/trycua-cua - デスクトップ操作AIエージェントのオープンソースインフラ.md",
+    "/repos/openclaw-openclaw - ローカルファーストで動くパーソナルAIアシスタント.md",
+    "/repos/microsoft-typescript-go - MicrosoftによるTypeScriptのGo言語ネイティブ移植版.md",
+    "/repos/mattpocock-skills - エンジニア向けClaude AIエージェントスキル集.md",
+    "/repos/home-assistant-core - プライバシー優先のオープンソースホームオートメーション.md",
+    "/repos/gastownhall-beads - AIエージェントのメモリ強化グラフ型タスクトラッカー.md",
+    "/repos/curl-curl - 30以上のプロトコルに対応するURLデータ転送CLIツール.md",
+    "/repos/codecrafters-io-build-your-own-x - 人気技術をスクラッチ再実装してプログラミングを習得するチュートリアル集.md",
+    "/repos/abhigyanpatwari-GitNexus - ブラウザ完結型コード知識グラフ・RAGエンジン.md",
+    "/repos/Z4nzu-hackingtool - ペネトレーションテスター向けオールインワンセキュリティツール.md",
+    "repos",
+    "dailyTrend",
+    "/repos",
+    "/dailyTrend"
+  ]
 }
