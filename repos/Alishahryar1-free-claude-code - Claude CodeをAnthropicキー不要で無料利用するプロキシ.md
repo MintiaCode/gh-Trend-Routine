@@ -1,6 +1,6 @@
 ---
 url: https://github.com/Alishahryar1/free-claude-code
-saved: 2026-04-27
+saved: 2026-04-28
 tags:
   - python
   - trending
@@ -15,8 +15,8 @@ rating:
 
 ライセンス: MIT
 言語: Python
-スター数: ⭐ 13914 (+1701 今日)
-トレンド順位: #2 (2026-04-27)
+スター数: ⭐ 17436 (+1706 今日)
+トレンド順位: #10 (2026-04-28)
 
 ---
 ## 概要
