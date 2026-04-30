@@ -33,7 +33,17 @@ Store the list (owner, repo, description, language, stars_today, rank) in memory
 
 For each repository, complete ALL of the following sub-steps before moving to the next repository. Never batch or defer writing.
 
-### 2a. Fetch metadata
+### 2a. Check for existing file (SKIP if already exists)
+
+Before fetching any data, run:
+
+```bash
+ls repos/ | grep -i "^{owner}-{repo} -" 
+```
+
+If a file matching `{owner}-{repo} - *.md` already exists in the `repos/` directory, this repository has been processed on a previous day. Skip steps 2b through 2e entirely and record for the index using the existing filename and its content. Then proceed to the next repository.
+
+### 2b. Fetch metadata
 
 URL: https://api.github.com/repos/{owner}/{repo}
 Header: Authorization: Bearer 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
@@ -117,6 +127,8 @@ rating:
 ### 2e. Record filename for index
 
 After writing the file, record: rank, owner/repo, filename (without .md), language, stars_today, 一行説明
+
+If the file was skipped in 2a (already existed), read the existing filename from `repos/` and record it with today's rank and stars_today. Use "(既存)" as a note internally but display normally in the index table.
 
 Then immediately proceed to the next repository (back to Step 2a).
 
