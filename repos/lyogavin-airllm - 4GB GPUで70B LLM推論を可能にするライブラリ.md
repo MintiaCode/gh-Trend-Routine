@@ -43,7 +43,7 @@ AirLLMは、大規模言語モデル（LLM）の推論時メモリ使用量を�
 - レイヤー分割ロード — モデルをレイヤー単位に分割し順次ロードして全体VRAM使用量を最小化
 - 量子化不要 — 精度劣化を伴う量子化・蒸留・プルーニングなしで大型モデルを実行
 - オプション量子化 — 4bit/8bit量子化との組み合わせで最大3倍の推論高速化も選択可能
-- 広いモデル対応 — Llama・ChatGLM・Qwen・Baichuan・Mistral・InternLMなど主要アーキテクチャをサポート
+- 幅広いモデル対応 — Llama・ChatGLM・Qwen・Baichuan・Mistral・InternLMなど主要アーキテクチャをサポート
 - シンプルなAPI — transformersライクなインターフェースで既存コードへの統合が容易
 
 ---
